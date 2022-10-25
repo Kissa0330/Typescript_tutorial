@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/typescript-tutorial/node_modules
+/typescript-tutorial/.pnp
+/typescript-tutorial.pnp.js
+
+# testing
+/typescript-tutorial/coverage
+
+# production
+/typescript-tutorial/build
+
+# misc
+/typescript-tutorial/.DS_Store
+/typescript-tutorial/.env.local
+/typescript-tutorial/.env.development.local
+/typescript-tutorial/.env.test.local
+/typescript-tutorial/.env.production.local
+
+/typescript-tutorial/npm-debug.log*
+/typescript-tutorial/yarn-debug.log*
+/typescript-tutorial/yarn-error.log*
