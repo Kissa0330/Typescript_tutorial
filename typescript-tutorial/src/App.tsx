@@ -1,38 +1,13 @@
 import { basename } from 'path';
 import React from 'react';
 import './App.css';
+import Inputfield from './components/Inputfield';
 
-let name :any;
-let age:number | string;
-let isStudent:boolean;
-let hobbies: string[];
-let role: [number, string]
-
-
-let printName: (name: string) => string;
-
-// function printName(name: string)
-// {
-//   console.log(name);
-// }
-
-// printName("takano");
-
-type X = {
-  name:string;
-}
-
-interface Person extends X {
-  name:string;
-  age?:number;
-}
-
-let person: Person;
-
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      Hello world
+      <span className="header">Taskify</span>
+      <Inputfield />
     </div>
   );
 }
